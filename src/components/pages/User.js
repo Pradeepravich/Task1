@@ -13,7 +13,7 @@ const User = () => {
     //     axios.get('https://jsonplaceholder.typicode.com/users/'+id).then(response=>setUser(response.data))
     //   },[id])
 
-    // console.log(user);
+    console.log(user);
 
     useEffect(()=>{
     const getUser = async () => {
