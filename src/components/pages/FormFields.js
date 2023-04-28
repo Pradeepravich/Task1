@@ -76,15 +76,6 @@ const FormFields = () => {
   return (
     <div className='w-100 '>
         <div className='form m-2'>
-            {/* <form className='d-flex justify-content-center' onSubmit={submitHandler}>
-                <input type="text" name="product" placeholder='Product' className='form-control mb-3 ws-25 rounded-0' value={product}  onChange={productHandler} />
-                <input type="text" name="qty" placeholder='Quantity' className='form-control mb-3 ws-25 rounded-0' value={qty} onChange={qtyHandler} />
-                <input type="text" name="price" placeholder='Price' className='form-control mb-3 ws-25 rounded-0' value={price} onChange={priceHandler} />
-                <div className='mts-4'>            
-                    <input type='submit' className='btn btn-success ws-25 rounded-0' value="Submit"/>
-                </div>
-            </form> */}
-
             <Box
               component="form"
               sx={{
