@@ -7,7 +7,8 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Users from './components/pages/Users';
 import Product from './components/pages/Product';
 import User from './components/pages/User';
-import Nav from './components/common/Nav'
+import Nav from './components/common/Nav';
+import FormFields from './components/pages/FormFields';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
             <Route path="/" element={<Users />} />
             <Route path="/users" element={<Users />} />
             <Route path="/User/:id" element={<User />} />
-            <Route path="/product" element={<Product />} />            
+            <Route path="/product" element={<Product />} />
+            <Route path="/formfields" element={<FormFields />} />            
           </Routes>
         </BrowserRouter>
     </div>
